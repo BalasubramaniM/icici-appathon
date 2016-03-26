@@ -1,0 +1,29 @@
+{
+  "name": "flurenco-server",
+  "version": "1.0.0",
+  "description": "Flurenco Server, which collects data sent from analytics js and process further.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "flurenco"
+  ],
+  "author": "Insight",
+  "git": "git@bitbucket.org:Balasubramani/flurenco-server.git",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "cryptr": "^1.0.0",
+    "express": "^4.13.4",
+    "glob": "^7.0.3",
+    "lodash": "^4.6.1",
+    "mongoose": "^4.4.7",
+    "nodemon": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.69.0",
+    "safe-access": "^0.1.0"
+  }
+}
